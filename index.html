@@ -6,9 +6,10 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">  
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href= "./lightbox.min.css">
   <title>Frontend Mentor | E-commerce product page</title>
   
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -59,10 +60,10 @@
   <div id = "left-section">
     <img id="active-img" alt = "active-image" src = "./images/image-product-1.jpg">
     <div id = "thumbnail-images">
-      <img class = "small-img" alt = "small" src="./images/image-product-1-thumbnail.jpg">
-      <img class = "small-img" alt = "small" src="./images/image-product-2-thumbnail.jpg">
-      <img class = "small-img" alt = "small" src="./images/image-product-3-thumbnail.jpg">
-      <img class = "small-img" alt = "small" src="./images/image-product-4-thumbnail.jpg">
+    <a data-lightbox ="shoes" data-title = "Preview-1" class = "preview" href = "./images/image-product-1.jpg"><img class = "small-img" alt = "small" src="./images/image-product-1-thumbnail.jpg"></a>
+    <a data-lightbox ="shoes" data-title = "Preview-2" class = "preview" href = "./images/image-product-2.jpg"><img class = "small-img" alt = "small" src="./images/image-product-2-thumbnail.jpg"></a>
+    <a data-lightbox ="shoes" data-title = "Preview-3" class = "preview" href = "./images/image-product-3.jpg"><img class = "small-img" alt = "small" src="./images/image-product-3-thumbnail.jpg"></a>
+    <a data-lightbox ="shoes" data-title = "Preview-4" class = "preview" href = "./images/image-product-4.jpg"><img class = "small-img" alt = "small" src="./images/image-product-4-thumbnail.jpg"></a>
     </div>
   </div>
   
@@ -90,6 +91,7 @@
       </div>
     </div>
     <script src = "./script.js"></script>
+    <script src = "./lightbox-plus-jquery.min.js"></script>
   </main>
   
   

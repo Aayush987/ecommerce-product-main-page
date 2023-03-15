@@ -3,8 +3,7 @@
     
 }
 body {
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
     margin: none;
     max-width: 1440px;
 
@@ -89,14 +88,18 @@ body {
 
 #thumbnail-images {
     padding-top: 10px;
-    
+    /* max-width: 10px; */
     /* max-width: 200px; */
 }
-#thumbnail-images > img {
+
+.preview > img {
+    max-width: 100px;
     border-radius: 10px;
     padding-right: 10px;
-    max-width: 100px;
-   
+}
+
+.preview > img:hover {
+   opacity: 0.5;
 }
 
 #para {
