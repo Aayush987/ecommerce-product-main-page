@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | E-commerce product page</title>
+  
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div id = "top-menu">
+    <div id = "left-menu">
+      <h1 id = "title">sneakers</h1>
+      <a href="#" class = "options">Collections</a>
+      <a href="#" class = "options">Men</a>
+      <a href="#" class = "options">Women</a>
+      <a href="#" class = "options">About</a>
+      <a href="aa" class = "options">Contact</a>
+    </div>
+  <div id = "right-menu">
+    <button id = "cart-show"> <img id="cart" class = "menubar" src = "./images/icon-cart.svg" alt="cart"></button>
+    <img class="menubar" src = "./images/image-avatar.png" alt="cart">
+  </div>
+
+  <div id = "cart-fnc">
+      <h4 id = "cart-head">Cart</h4>
+      <div id = "full-cart">
+        <div id = "cart-item">
+          <img id = "cart-img" src = "./images/image-product-1-thumbnail.jpg" alt ="item-1">
+          <div id = "cart-desc">
+            <h3 >Full Limited Edition Sneakers</h3>
+              <div id = "num">
+              <span>$125.00</span>
+              <span id = "quantity">x 1</span>
+              <span id = "total">$125.00</span>
+              </div>
+          </div>
+          <button id = "del"><img src = "./images/icon-delete.svg"></button>
+        </div>
+        <button id = "checkout">Checkout</button>
+      </div>
+      <div id = "empty-cart">
+        <p>Your cart is empty.</p>
+      </div>
+    </div>
+</div>
+
+<main id = "body">
+  <div id = "left-section">
+    <img id="active-img" alt = "active-image" src = "./images/image-product-1.jpg">
+    <div id = "thumbnail-images">
+      <img class = "small-img" alt = "small" src="./images/image-product-1-thumbnail.jpg">
+      <img class = "small-img" alt = "small" src="./images/image-product-2-thumbnail.jpg">
+      <img class = "small-img" alt = "small" src="./images/image-product-3-thumbnail.jpg">
+      <img class = "small-img" alt = "small" src="./images/image-product-4-thumbnail.jpg">
+    </div>
+  </div>
+  
+  
+  <div id = "right-section">
+    <h5>Sneaker Company</h5>
+    
+    <h1>Fall Limited Edition<br>Sneakers</h1>
+    
+    <p id = "para">These low-profile sneakers are your perfect casual wear<br> companion. Featuring a 
+      durable rubber outer sole, they’ll<br> withstand everything the weather can offer.</p>
+      
+      <div id = "cost">
+        <h4>$125.00</h4>
+        <h5>50%</h5>
+      </div>
+      <s id = "discount">$250.00</s>
+      <div id = "cart-menu">
+        <div id = "qty">
+          <button id = "minus">-</button>
+          <p id = "count">0</p>
+          <button id = "plus">+</button>
+        </div>
+        <button id = "cart-btn">Add to cart</button>
+      </div>
+    </div>
+    <script src = "./script.js"></script>
+  </main>
+  
+  
+  <!-- <footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </footer> -->
+</body>
+</html>
