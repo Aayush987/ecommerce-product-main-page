@@ -270,7 +270,7 @@ h5 {
         /* padding: 0 80px;  */
     }
     #qty > button {
-        padding: 0px 50px;
+        padding: 0px 40px;
         background-color: white;
     }
 
@@ -312,5 +312,7 @@ h5 {
     #right-menu {
         margin-right: 0px;
     }
-    
+    #cost > h5 {
+        background-color: white;
+    }
 }
