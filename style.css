@@ -238,5 +238,78 @@ h5 {
 
 
 @media screen and (max-width: 400px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    .options {
+        display: none;
+    }
+    #top-menu {
+        display: flex;
+    }
+    #active-img {
+        max-width: 80%;    
+        margin-left: 35px;
+     }
+    #body {
+        display: flex;
+        flex-direction: column;
+    }
+    #right-direction {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        font-size: larger;
+    }
+    #cost > h4{
+        font-size: 28px;
+    }
+    #qty {  
+        object-fit: fill;
+        /* padding: 0 80px;  */
+    }
+    #qty > button {
+        padding: 0px 50px;
+        background-color: white;
+    }
+
+    #cart-menu {
+        display: flex;
+        flex-direction: column;
+    }
+    #cart-btn {
+        margin-top: 20px;
+        padding: 10px 70px;
+        align-items: center;
+        font-size: 12px;
+    }
+    #thumbnail-images {
+     margin-left: 8px;
+    }
+
+    .preview > img {
+        object-fit: contain;
+        max-width: 90px;
+
+    }
+
+    #cart-fnc {
+       width: 400px;
+       height: 200px;
+       top: 200px;
+       left: 47px;
+       filter: none;
+    }
+
+    #left-menu > h1 {
+        
+        font-size: 35px;
+        margin-right: 50px;
+        margin-left: 0px;
+    }
+    #right-menu {
+        margin-right: 0px;
+    }
     
 }
