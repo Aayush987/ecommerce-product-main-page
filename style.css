@@ -235,6 +235,10 @@ h5 {
 #full-cart {
   display: none;
 }
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
 
 
 @media screen and (max-width: 400px) {
@@ -315,4 +319,7 @@ h5 {
     #cost > h5 {
         background-color: white;
     }
+    footer {
+        font-size: small;
+        }
 }
